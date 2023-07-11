@@ -1,0 +1,75 @@
+<div id="app">
+<span class="negrita">Nombre: </span> Ingrid Julieth Rodriguez Nova
+  <br>
+  <span class="negrita">URL:</span>
+  <a href="https://js-fzzzea.stackblitz.io" target="_blank">
+    https://js-fzzzea.stackblitz.io
+  </a>
+  <br>
+  <span class="negrita">GitHub:</span>
+  <a href="https://github.com/JulietaNova/08MBID---Visualizacion-de-Datos" target="_blank">
+    https://github.com/JulietaNova/08MBID---Visualizacion-de-Datos
+  </a>
+  <br>
+  <span class="negrita">Fuente:</span>
+  <a href="https://raw.githubusercontent.com/JulietaNova/08MBID---Visualizacion-de-Datos/main/Trabajo%20Pr%C3%A1ctico/hotel_bookings.csv" target="_blank">
+    Datos de kaggle subidos a GitHub
+  </a>
+  <h1 > Reservaciones Hoteleras</h1>
+  <br>
+  <div>
+    <span class="subtitulo">Introducción</span>
+    <br>
+    <br>
+    <span class="texto">Las reservas hoteleras se realizan al rededor del mundo en muchos tipos de hoteles, en este caso se van a tratar dos grandes grupos de tipos de hoteles, los "Resort" y los "Hoteles Urbanos" para que los agentes y/o agencias de viajes, dueños y/o administradores de hoteles puedan analizar la información de reservas y cancelaciones.</span>
+    <br>
+    <br>
+    <span class="texto">Mi objetivo al escoger este dataset es analizarlo para tener ideas de visualización y empezar a entender este tipo de negocio porque actualmente en mi trabajo estoy realizando una estimación para construir una serie de reportes para un cliente que tiene cerca de 200 agentes de viajes que se encargan de vender reservaciones hoteleras y aunque no son sus datos espero me ayude a tener un acercamiento a los datos que podría encontrar en este cliente.</span>
+    <br>
+    <br>
+    <span class="texto">Los agentes y/o agencias de viajes estan interesados en obtener información relacionada a la respuesta de: </span>
+    <br>
+    <ul>
+    <li>¿Qué tipo de hotel tiene mayor número de reservaciones y porcentaje de cancelación?</li>
+    <li>¿Cuáles son los países con mayor y menos porcentaje de cancelación por tipo de hotel?</li>
+    <li>¿Qué tipo de cliente es más propenso a hacer reservaciones hoteleras?</li>
+    </ul>
+    <span class="texto">Para los dueños y/o administradores de hoteles la información objetivo esta relacionada a la respuesta de: </span>
+    <br>
+    <ul>
+      <li>¿Cuáles son los orígenes de reservas (directamente por el hotel, agencias de viajes, agentes de viajes, sistemas GDS u otros) con mayor cantidad de reservaciones y cancelaciones?</li>
+    </ul>
+  </div>
+  <div>
+    <br>
+    <span class="subtitulo">Metodología</span>
+    <br>
+    <br>
+    <span class="texto">Las herramientas que se usaron para las visualizaciones que pretende responder a la información que necesitan agentes y administradores de hoteles son Power BI y Python (seaborn, matplotlib y plotly) porque la fuente usada tiene cerca de 119.000 registros y basado en la experiencia de otros compañeros, herramientas como Google Sheet y DataWrapper tienen dificultades para procesar un volumen tan alto de datos. Tampoco se pensó en otras herramientas por falta de experiencia.</span>
+  </div>
+  <div>
+    <br>
+    <span class="subtitulo">Resultados</span>
+    <br>
+    <br>
+    <span class="texto">A continuación, se expone cada pregunta, se explica cómo se abordó y se muestra la visualización que pretende dar respuesta a la pregunta.:</span>
+    <ul>
+      <li>¿Qué tipo de hotel tiene mayor número de reservaciones y porcentaje de cancelación?</li>
+      <span class="texto">Se contaron la cantidad de reservaciones y cancelaciones por tipo de hotel y se graficó en un diagrama de barras la cantidad de reservaciones por tipo de hotel donde cada barra de color indica si son reservaciones de "Resort" o de "Hoteles Urbanos". Además, la gráfica de columnas ubicada a la derecha muestra el porcentaje de cancelación por cada tipo de hotel, las dos graficas muestran los datos por año.</span>
+      <br>
+      <img src="https://alumnosviu-my.sharepoint.com/:i:/g/personal/ingrid_rodrigueznova_alumnos_viu_es/ER5LZ5f5VgFLuCuWEO7KQ5cBnlfr-5TLHtj-lx8nZ-uQ3g?e=g5Cq70" style= "width=80px;height=60px" alt= "https://alumnosviu-my.sharepoint.com/:i:/g/personal/ingrid_rodrigueznova_alumnos_viu_es/ER5LZ5f5VgFLuCuWEO7KQ5cBnlfr-5TLHtj-lx8nZ-uQ3g?e=g5Cq70"/>
+      <br>
+      <br>
+      <li>¿Cuáles son los países con mayor y menos porcentaje de cancelación por tipo de hotel?</li>
+      <li>¿Qué tipo de cliente es más propenso a hacer reservaciones hoteleras?</li>
+      <li>¿Cuáles son los orígenes de reservas (directamente por el hotel, agencias de viajes, agentes de viajes, sistemas GDS u otros) con mayor cantidad de reservaciones y cancelaciones?</li>
+    </ul>
+  </div>
+  <div>
+    <br>
+    <span class="subtitulo">Referencias</span>
+    <br>
+    <span class="texto">JESSE MOSTIPAK (2020). Hotel booking demand. https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand</span>
+  </div>
+  <br>
+</div>
